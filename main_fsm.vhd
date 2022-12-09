@@ -187,11 +187,4 @@ begin
                                     clk<='1';
                                     wait for clock_period;
                                 end process;
---                                clock_process: process
---                                begin
---                                clock<='0';
---                                wait for 10 ns;
---                                clock<='1';
---                                wait for 10 ns;
---                                end process;
 end Behavioral;
